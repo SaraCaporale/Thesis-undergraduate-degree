@@ -34,6 +34,14 @@ Thanks to the properties of the eBWT and leveraging the document array, many pro
 
 In this work we conduct some experiments on four genomic datasets: _Escherichia coli_, _HIV-1_, _Drosophila_, mitochondrial DNA of cichlid fishes. For each of them, we build the eBWT via PFP and the corresponding DA. We compute the distance matrix for each dissimilarity measure and we generate the corresponding phylogenetic tree. For each dataset we show the tree known in the literature and we compare it with those obtained.
 
+## Experiments
+
+To try some experiments, you can download the _E. coli_ dataset [here](https://afproject.org/app/benchmark/genome/std/assembled/ecoli/dataset/). 
+
+Run the make file in the submodule repository to build the eBWT and DA, and compute the distance matrix with the `distances.cpp` file. \
+In order to obtain the phylogenetic tree, you can [rapidNJ](https://github.com/somme89/rapidNJ), which uses the **Nearest-Joining method** to create a tree in Newick format. \
+You can graphically see the tree with [iTol](https://itol.embl.de/).
+
 # References
 
-Check [bibliography](https://github.com/SaraCaporale/Thesis-undergraduate-degree/blob/main/Bibliografia_tesi.pdf) for references
+Check [bibliography](https://github.com/SaraCaporale/Thesis-undergraduate-degree/blob/main/Bibliografia_tesi.pdf) for references.
