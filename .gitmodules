@@ -1,0 +1,3 @@
+[submodule "PFP-eBWT"]
+	path = PFP-eBWT
+	url = https://github.com/SaraCaporale/PFP-eBWT.git
